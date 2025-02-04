@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="24.9.1">
+  <diagram name="Página-1" id="VXL6YO2R-P_xzhJiHdiT">
+    <mxGraphModel dx="1323" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-1" value="GESTION INVENTARIO&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-2" value="Productos: Array [Producto]&lt;br&gt;Producto Bulder: Producto Bulder" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="20" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-3" value="+ Agregar producto (Product:Producto):&lt;br&gt;+ buscar Producto Id (Intid):producto&lt;br&gt;+ eliminar producto (intid):void&lt;br&gt;+ listar productos(I: list producto&amp;nbsp;&lt;br&gt;+ actualizar (id: int, Producto producto)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="70" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-4" value="PRODUCTO&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-5" value="- Id: int&amp;nbsp;&lt;br&gt;- nombre: string&lt;br&gt;- cantidad: int&lt;br&gt;- precio: float" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="20" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-6" value="+Producto (id, nombre, cantidad, precio)&amp;nbsp;&lt;br&gt;+ get Id (): Int&amp;nbsp;&lt;br&gt;+ get Nombre: (): string&amp;nbsp;&lt;div&gt;+ get Cantidad (): int&lt;br&gt;+ get Precio (): float&lt;br&gt;+set Id (id : int)&lt;/div&gt;&lt;div&gt;+ set Nombre (nomb:string)}&lt;br&gt;+ set Precio (precio: float)&amp;nbsp;&lt;br&gt;+ set Cantidad (cant: int)&lt;br&gt;+toString():String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="80" width="130" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-7" value="&amp;lt;&amp;lt;Producto Impl Bulder&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-8" value="+Producto Impl Builder&lt;br&gt;build Nombre (String Nombre)&amp;nbsp;&lt;br&gt;+ Producto Impl Bullder&lt;br&gt;buld Cantidad (int Cantidad)&lt;br&gt;+ Producto Impl Builder&lt;br&gt;build (float precio)&amp;nbsp;&lt;br&gt;+ Producto build ();" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="25" width="150" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBoA6l5oj3ymzxzeQCYM-2" target="zBoA6l5oj3ymzxzeQCYM-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="250" as="sourcePoint" />
+            <mxPoint x="380" y="200" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.012;entryY=0.325;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zBoA6l5oj3ymzxzeQCYM-2" target="zBoA6l5oj3ymzxzeQCYM-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="250" as="sourcePoint" />
+            <mxPoint x="560" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="-30" />
+              <mxPoint x="350" y="-30" />
+              <mxPoint x="560" y="-30" />
+              <mxPoint x="560" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-12" value="Producto Builder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="-5" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-13" value="- Producto producto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="15" width="120" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-14" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ get Id (): Int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getNombre (): String&lt;/div&gt;&lt;div&gt;+ got Contidad():Int&lt;/div&gt;&lt;div&gt;+ get Precio (): float&lt;/div&gt;&lt;div&gt;+ build Nombre (String nombre) :&lt;/div&gt;&lt;div&gt;Producto Builder&lt;/div&gt;&lt;div&gt;+ lovild Cantidad (int cantidad) :&lt;/div&gt;&lt;div&gt;Producto Bullder&lt;/div&gt;&lt;div&gt;+ bulldPrecio (float precio):&lt;/div&gt;&lt;div&gt;Producto Bullder&lt;br&gt;+bulld(): Producto&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="590" y="30" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoA6l5oj3ymzxzeQCYM-7" target="zBoA6l5oj3ymzxzeQCYM-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="40" as="sourcePoint" />
+            <mxPoint x="490" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-16" value="INVENTARIO CONTROLLER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-460" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-17" value="- Inventario: Gestion Inventario&lt;br&gt;- Vistas productos: Vista Productos&lt;br&gt;- Vista: Vista" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-440" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-18" value="+Inventario Controller (Gestion Inventario,inventario,vistaproductos,&lt;br&gt;listavista)&lt;br&gt;+ eliminar Producto ()&lt;br&gt;+ agregar producto ()&lt;br&gt;+ listar productos ()&lt;br&gt;+ buscar producto ()&lt;br&gt;+ actualizar ()&lt;br&gt;+ calcular Total Inventario ()" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-390" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-20" value="VISTA PRODUCTOS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-460" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-21" value="- Vista Vista&amp;nbsp;&lt;br&gt;+ mostrar_menu():int&lt;br&gt;+solicitar Producto():Ptoducto&lt;br&gt;+mostrar Producto (Producto producto)&lt;br&gt;+Mostrar lista Productos (Productos: list&amp;lt;Producto&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-440" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-22" value="Vista" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-330" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-23" value="+mostrarMensaje (msg:string): String&lt;br&gt;+solicitarEntrada(msg:String)string&lt;br&gt;+ Solicitar Entrada Int(msg:string):int&lt;br&gt;+solicitar Entrada Float (msg:String)float" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-300" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-24" value="Gestor Inventario MVC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-210" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-25" value="- Gestion Inventario inventario&lt;br&gt;- Vista Producto vista producto&lt;br&gt;-Vista vista&lt;br&gt;- Inventario Controller Inventario&amp;nbsp;&lt;br&gt;+ bool inicio = true;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-190" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-26" value="+ mam():void" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-120" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBoA6l5oj3ymzxzeQCYM-17" target="zBoA6l5oj3ymzxzeQCYM-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="-280" as="sourcePoint" />
+            <mxPoint x="300" y="-290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="-315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoA6l5oj3ymzxzeQCYM-17" target="zBoA6l5oj3ymzxzeQCYM-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="-280" as="sourcePoint" />
+            <mxPoint x="260" y="-330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBoA6l5oj3ymzxzeQCYM-20" target="zBoA6l5oj3ymzxzeQCYM-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="-280" as="sourcePoint" />
+            <mxPoint x="690" y="-140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="-450" />
+              <mxPoint x="690" y="-170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zBoA6l5oj3ymzxzeQCYM-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="-210" as="sourcePoint" />
+            <mxPoint x="450" y="-260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="-155" />
+              <mxPoint x="410" y="-260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-31" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.001;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zBoA6l5oj3ymzxzeQCYM-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="-160" as="sourcePoint" />
+            <mxPoint x="80" y="-250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="-164" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.001;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.374;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zBoA6l5oj3ymzxzeQCYM-25" target="zBoA6l5oj3ymzxzeQCYM-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="-10" as="sourcePoint" />
+            <mxPoint x="150" y="-60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="-181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBoA6l5oj3ymzxzeQCYM-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.075;entryY=-0.155;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zBoA6l5oj3ymzxzeQCYM-17" target="zBoA6l5oj3ymzxzeQCYM-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="-180" as="sourcePoint" />
+            <mxPoint x="10" y="-260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="-415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
